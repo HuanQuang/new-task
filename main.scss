@@ -66,6 +66,8 @@ html {
         &--login {
             color: var(--primary-color);
             margin-right: 20px;
+            padding-left: 0;
+            padding-right: 0;
             background-color: transparent;
         }
         &--start {
@@ -631,6 +633,14 @@ html {
             width: 730px;
             margin-left: auto;
             margin-right: auto;
+        }
+    }
+}
+@media screen and (min-width: 1440px){
+    .header {
+        &__nav {
+            margin-left: 377px;
+            margin-right: 275px;
         }
     }
 }
