@@ -203,8 +203,10 @@ html {
 }
 .content__detail--item--content--input {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 16px;
+  gap: 24px;
 }
 .content__detail--item--content--input input {
   padding: 11px 16px;
@@ -215,7 +217,6 @@ html {
   color: #737B7D;
   border: none;
   background: #F4F5F4;
-  margin-right: 24px;
   flex-grow: 1;
   outline: none;
 }
