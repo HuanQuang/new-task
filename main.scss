@@ -505,7 +505,7 @@ html {
                     min-height: 40px;
                 }
                 &--des {
-                    font-size: 8px;
+                    font-size: 10px;
                     margin-bottom: 16px;
                     line-height: 12px;
                 }
@@ -546,7 +546,7 @@ html {
                                 width: 30px;
                             }
                             p {
-                                font-size: 13px;
+                                font-size: 10px;
                             }
                         }
                     }
@@ -558,9 +558,9 @@ html {
                         justify-content: space-between;
                         margin-bottom: 16px;
                         input {
-                            padding: 11px 16px;
+                            padding: 6px 14px;
                             font-weight: 400;
-                            font-size: 14px;
+                            font-size: 12px;
                             line-height: 20px;
                             letter-spacing: 0.2px;
                             color: #737B7D;
@@ -584,23 +584,23 @@ html {
                     }
                     &--note {
                         font-weight: 600;
-                        font-size: 12px;
+                        font-size: 10px;
                         line-height: 16px;
                         letter-spacing: 0.2px;
                         color: #737B7D;
                     }
                     &--grid {
                         display: flex;
-                    gap: 0 30px;
+                        gap: 0 30px;
                     &--item {
                         margin-top: 20px;
                         img {
-                            width: 30px;
+                            width: 25px;
                             margin-bottom: 10px;
                         }
                         p {
                             font-weight: 400;
-                            font-size: 11px;
+                            font-size: 10px;
                             line-height: 18px;
                             letter-spacing: 0.3px;
                             color: #737B7D;
@@ -624,7 +624,7 @@ html {
                     margin: 12px 0;
                 }
                 &--des {
-                    font-size: 11px;
+                    font-size: 10px;
                     line-height: 18px;
                 }
             }
