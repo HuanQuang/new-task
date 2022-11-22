@@ -173,7 +173,12 @@ html {
         &--item {
             display: flex;
             gap: 0 30px;
+            width: 100%;
+            img {
+                width: calc(50% - 15px);
+            }
             &--content {
+                width: calc(50% - 15px);
                 &--title {
                     font-weight: 700;
                     font-size: 32px;
@@ -301,9 +306,6 @@ html {
         padding: 60px 70px 90px;
         &__detail {
             &--item {
-                img {
-                    width: 50%;
-                }
                 &--content {
                     &--title {
                         font-size: 25px;
@@ -367,10 +369,10 @@ html {
         &__detail {
             &--item {
                 img {
-                    width: calc(50% - 15px);
+                  
                 }
                 &--content {
-                    width: calc(50% - 15px);
+                  
                     &--title {
                         font-size: 19px;
                         line-height: 28px;
@@ -447,8 +449,8 @@ html {
             .fa-xmark {
                 display: block;
                 position: absolute;
-                top: 18px;
-                right: 30px;
+                top: 14px;
+                right: 8px;
                 font-size: 20px;
                 cursor: pointer;
                 padding: 10px 12px;
@@ -514,12 +516,12 @@ html {
             &--item {
                 flex-wrap: wrap;
                 img {
-                    width: calc(50% - 15px);
+           
                     height: fit-content;
                 }
 
                 &--content {
-                    width: calc(50% - 15px);
+             
                     &--title {
                         font-size: 14px;
                         line-height: 20px;

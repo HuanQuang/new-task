@@ -177,6 +177,13 @@ html {
 .content__detail--item {
   display: flex;
   gap: 0 30px;
+  width: 100%;
+}
+.content__detail--item img {
+  width: calc(50% - 15px);
+}
+.content__detail--item--content {
+  width: calc(50% - 15px);
 }
 .content__detail--item--content--title {
   font-weight: 700;
@@ -296,9 +303,6 @@ html {
   .content {
     padding: 60px 70px 90px;
   }
-  .content__detail--item img {
-    width: 50%;
-  }
   .content__detail--item--content--title {
     font-size: 25px;
     line-height: 32px;
@@ -345,12 +349,6 @@ html {
   .content__major--item--des {
     font-size: 13px;
     margin-bottom: 25px;
-  }
-  .content__detail--item img {
-    width: calc(50% - 15px);
-  }
-  .content__detail--item--content {
-    width: calc(50% - 15px);
   }
   .content__detail--item--content--title {
     font-size: 19px;
@@ -416,8 +414,8 @@ html {
   .header__nav .fa-xmark {
     display: block;
     position: absolute;
-    top: 18px;
-    right: 30px;
+    top: 14px;
+    right: 8px;
     font-size: 20px;
     cursor: pointer;
     padding: 10px 12px;
@@ -482,11 +480,7 @@ html {
     flex-wrap: wrap;
   }
   .content__detail--item img {
-    width: calc(50% - 15px);
     height: fit-content;
-  }
-  .content__detail--item--content {
-    width: calc(50% - 15px);
   }
   .content__detail--item--content--title {
     font-size: 14px;
